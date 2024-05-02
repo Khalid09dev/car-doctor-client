@@ -10,8 +10,8 @@ const About = () => {
                 <div className="lg:w-1/2">
                 <h1 className="text-[#FF3811] text-xl font-semibold">About Us</h1>
                 <h2 className="text-[#FFFFFF] leading-[50px] text-[45px] font-semibold pt-5 pb-7">We are qualified <br /> & of experience <br /> in this field</h2>
-                <p className="text-base font-normal text-[#737373] pb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                <p className="text-base font-normal text-[#737373] pb-7">the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                <p className="text-base font-normal text-[#737373] pb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don<span>&#39;</span>t look even slightly believable.</p>
+                <p className="text-base font-normal text-[#737373] pb-7">the majority have suffered alteration in some form, by injected humour, or randomised words which don<span className="text-[#737373]">&#39;</span>t look even slightly believable.</p>
                 <button className="py-4 px-6 text-white font-semibold text-base bg-[#FF3811] rounded-md">Get More Info</button>
                 </div>
             </div>
