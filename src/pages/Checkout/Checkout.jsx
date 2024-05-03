@@ -15,8 +15,18 @@ const Checkout = () => {
                 </div>
                 </div>
             </div>
-            <h2>{title}</h2>
-            <h2>Book Service:</h2>
+            <div className="flex justify-center mt-20">
+            <form className="p-24 bg-[#F3F3F3] w-3/4">
+                <div className="grid grid-cols-2"> 
+                    <input className="bg-white py-3 pl-5 mr-6 mb-5 rounded-lg" type="text" name="firstname" id="" placeholder="First Name"/>
+                    <input className="bg-white py-3 pl-5 mb-5 rounded-lg" type="text" name="lastname" id="" placeholder="Last Name"/>
+                    <input className="bg-white py-3 pl-5 mr-6 rounded-lg mb-5" type="number" name="phone" id="" placeholder="Your Phone"/>
+                    <input className="bg-white py-3 pl-5 rounded-lg mb-5" type="email" name="email" id="" placeholder="Your Email"/>
+                </div>
+                <textarea className="w-full bg-white rounded-lg placeholder:pl-5 pt-5" name="textarea" id="" cols="60" rows="10" placeholder="Your Message"></textarea> <br />
+                <input className="w-full bg-[#FF3811] py-3 rounded-lg text-white text-base font-medium" type="submit" value="Order Confirm" />
+            </form>
+            </div>
         </div>
     );
 };
